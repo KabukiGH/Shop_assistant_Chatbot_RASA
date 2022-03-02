@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="TESTS" type="main.py" name="main" output="screen"/>
+    <!-- <node pkg="test_pkg" type="second_publisher.py" name="second_publisher" output="screen"/> -->
+    <node pkg="TESTS" type="process.py" name="process" output="screen"/>
+</launch>
