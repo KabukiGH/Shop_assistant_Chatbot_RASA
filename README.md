@@ -31,6 +31,7 @@ RASA has advantages such as:
 - Being open-source
 - Being flexible: you can add/remove what you want so it fits better to your project
 - Learning on its own
+
 RASA works on 3 main elements that are Natural Language Understanding (NLU), Natural Language Generation (NLG) and Dialogue Management. NLU converts text into vectors to identify the intention of the sentence. It is tagging each work with a part of speech (noun, verb, ect) and then regroup them into groups. It first finds the request in the sentence and then extract the entity.
 NLG is taking inputs of non-linguistic format and converts it into a human-understandable form.
 The Dialogue Management is – as its name suggest – managing the dialogue with the user.
