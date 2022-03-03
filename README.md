@@ -16,14 +16,16 @@ It's also have environmental constraints, such as the distance between the user 
 	For the code of this project, I will be using Python, with the ROS package. The robot we will be using to try our software will be the robot Pepper.
 
 ![image](https://user-images.githubusercontent.com/99291705/156606167-1b565459-a0ee-4ca6-a0d8-83678c36e986.png)
+
 Picture 1: Architecture of the code
 
 Detailed Architecture
-For this project it's using ROS (Robot Operating System). It is a set of software libraries and tools that helps build robot applications. The applications are designed as unit known as Nodes. In a robot system, sensors, motion controllers or algorithms components can be nodes. Nodes communicate with each other via Topic, Service Invocation or Actions. This communication has publish/subscribe architecture where data produced and published by a node is subscribed by another. The data types used in topic communication are called message.
 
-The ROS Master provides naming and registration services to the rest of the nodes in the system. His role is to enable individual nodes to locate one another. Once they have located each other, they can communicate.
+For this project it's using ROS (Robot Operating System). It is a set of software libraries and tools that helps build robot applications. The applications are designed as unit known as Nodes. In a robot system, sensors, motion controllers or algorithms components can be nodes. Nodes communicate with each other via Topic, Service Invocation or Actions. This communication has publish/subscribe architecture where data produced and published by a node is subscribed by another. The data types used in topic communication are called message.
+	The ROS Master provides naming and registration services to the rest of the nodes in the system. His role is to enable individual nodes to locate one another. Once they have located each other, they can communicate.
 
 Implement Design Choice
+
 For this project, we decided to use RASA. It is an open-source AI for buildings conversational chatbots. It is used to automate the text and voice-based assistants.
 RASA has advantages such as:
 - Being open-source
